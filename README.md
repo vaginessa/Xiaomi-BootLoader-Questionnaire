@@ -1,45 +1,50 @@
-# Xiaomi-BootLoader-Questionnaire
-小米 BootLoader《解锁资格答题测试》更新记录
+# Xiaomi-BootLoader-Questionnaire  
 
-- 各 ID 为 Beehive 问卷内部 ID，供用户写脚本使用
-- 答案为收集整理，不一定完全正确，欢迎提交你的答案
-- 选项以 ID 从小到大排序，实际答题时顺序可能会随机变动
-- 文字游戏较多，注意题目和选项的细节
-- 祝你们每个人都能天天签到 12 分，早日通过申请审批，解锁 BootLoader
-- 催更/纠错左转 [Issues](https://github.com/MlgmXyysd/Xiaomi-BootLoader-Questionnaire/issues)，讨论右转 [Discussions](https://github.com/MlgmXyysd/Xiaomi-BootLoader-Questionnaire/discussions)
+https://github.com/MlgmXyysd/Xiaomi-BootLoader-Questionnaire  
+
+#### Xiaomi BootLoader "Unlocking Qualification Test" update record
+
+
+
+- Each ID is the internal ID of the Beehive questionnaire, which is used by users to write scripts.
+- The answers are collected and organized and may not be completely correct. You are welcome to submit your answers.
+- Options are sorted by ID from small to large. The order may change randomly during the actual answer.
+- There are many word games, so pay attention to the details of the questions and options
+- I wish each of you can sign in for 12 points every day, pass the application approval as soon as possible, and unlock the BootLoader
+- Update reminder/correction left [Issues](https://github.com/MlgmXyysd/Xiaomi-BootLoader-Questionnaire/issues), discussion right [Discussions](https://github.com/MlgmXyysd/Xiaomi- BootLoader-Questionnaire/discussions)
 
 ## 2023.12.01
 
-- 答题链接: https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
-- 题目数量: 18
-- 合格分数: 93
-- 时间限制: 6 分钟，超时结算已回答题目的分数
-- 注: 已答题账号在 7 天内无法重新答题
+- Answer link: https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
+- Number of questions: 18
+- Passing score: 93
+- Time limit: 6 minutes, scores for answered questions will be calculated over time
+- Note: Accounts that have already answered questions cannot answer questions again within 7 days.
 
 <table>
 	<tr align="center">
-		<th rowspan="2">题目 ID</td>
-		<th rowspan="2">题目内容</td>
-		<th rowspan="2">类型</td>
-		<th colspan="10">选项</td>
-		<th rowspan="2">答案</td>
+		<th rowspan="2">Question ID</td>
+		<th rowspan="2">Question content</td>
+		<th rowspan="2">Type</td>
+		<th colspan="10">Options</td>
+		<th rowspan="2">Answer</td>
 	</tr>
 	<tr align="center">
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 	</tr>
 	<tr>
 		<td>1482217</td>
-		<td>FASTBOOT模式下如何输出防回滚机制（ANTI）版本号</td>
-		<td>单选题</td>
+		<td>How to output the anti-rollback mechanism (ANTI) version number in FASTBOOT mode</td>
+		<td>Single choice question</td>
 		<td>4862237</td>
 		<td>fastboot -w ANTI</td>
 		<td>4862238</td>
@@ -54,40 +59,40 @@
 	</tr>
 	<tr>
 		<td>1481264</td>
-		<td>以下Bootloader锁表述错误的是？</td>
-		<td>单选题</td>
+		<td>Which of the following Bootloader lock statements is incorrect? </td>
+		<td>Single choice question</td>
 		<td>4859673</td>
-		<td>正式版切换到开发版必须解锁</td>
+		<td>Switching from the official version to the development version must be unlocked</td>
 		<td>4859674</td>
-		<td>解锁时需要登录小米账号</td>
+		<td>You need to log in to your Xiaomi account when unlocking</td>
 		<td>4859675</td>
-		<td>小米账号需要与手机绑定</td>
+		<td>Xiaomi account needs to be bound to the mobile phone</td>
 		<td>4859676</td>
-		<td>解锁后系统安全系数会降低</td>
+		<td>The system security factor will be reduced after unlocking</td>
 		<td></td>
 		<td></td>
 		<td>4859673</td>
 	</tr>
 	<tr>
 		<td>1481265</td>
-		<td>下列刷机工具中，属于官方提供给用户的工具是？</td>
-		<td>单选题</td>
+		<td>Among the following flashing tools, which one is officially provided to users? </td>
+		<td>Single choice question</td>
 		<td>4859946</td>
-		<td>91助手</td>
+		<td>91 Assistant</td>
 		<td>4859677</td>
 		<td>MiFlash</td>
 		<td>4859678</td>
-		<td>刷机大师</td>
+		<td>Flash Master</td>
 		<td>4859679</td>
-		<td>线刷宝</td>
+		<td>Online brush treasure</td>
 		<td></td>
 		<td></td>
 		<td>4859677</td>
 	</tr>
 	<tr>
 		<td>1481266</td>
-		<td>如何在FASTBOOT命令行内，刷入twrp到boot分区？</td>
-		<td>单选题</td>
+		<td>How to flash twrp to the boot partition in the FASTBOOT command line? </td>
+		<td>Single choice question</td>
 		<td>4859680</td>
 		<td>fastboot flash boot boot.img</td>
 		<td>4859681</td>
@@ -102,94 +107,94 @@
 	</tr>
 	<tr>
 		<td>1481268</td>
-		<td>如何烧录img、bin、mbn、elf等镜像文件内容到指定分区？</td>
-		<td>单选题</td>
+		<td>How to burn img, bin, mbn, elf and other image file contents to a specified partition? </td>
+		<td>Single choice question</td>
 		<td>4859688</td>
-		<td>fastboot getvar all &lt;分区名&gt;</td>
+		<td>fastboot getvar all <partition name></td>
 		<td>4859689</td>
-		<td>fastboot boot &lt;内核镜像文件名或路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot boot <kernel image file name or path> <partition name></td>
 		<td>4859690</td>
-		<td>fastboot flash &lt;镜像路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot flash <image path> <partition name></td>
 		<td>4859691</td>
-		<td>fastboot flash &lt;分区名&gt; &lt;镜像文件名或路径&gt;</td>
+		<td>fastboot flash <Partition name> <Image file name or path></td>
 		<td></td>
 		<td></td>
 		<td>4859691</td>
 	</tr>
 	<tr>
 		<td>1481260</td>
-		<td>以下关于BL解锁刷机的说法中，正确的有</td>
-		<td>多选题</td>
+		<td>Among the following statements about BL unlocking and rooting, which ones are correct</td>
+		<td>Multiple choice questions</td>
 		<td>4859659</td>
-		<td>刷入第三方TWRP，通常选择刷入到system分区</td>
+		<td>Flash third-party TWRP, usually choose to flash to the system partition</td>
 		<td>4859660</td>
-		<td>刷入第三方Recovery，数据通常不会丢失</td>
+		<td>Flash into third-party recovery, data will usually not be lost</td>
 		<td>4859661</td>
-		<td>擦除cache分区数据，个人数据通常不会丢失</td>
+		<td>Erase cache partition data, personal data is usually not lost</td>
 		<td>4859662</td>
-		<td>Xiaomi/Redmi手机一般长按音量减键和音量加键即可进入Recovery</td>
+		<td>On Xiaomi/Redmi phones, you can generally press and hold the volume down button and volume up button to enter Recovery</td>
 		<td>4859752</td>
-		<td>线刷刷机前应当备份重要数据</td>
+		<td>You should back up important data before online flashing</td>
 		<td>4859660,4859661,4859752</td>
 	</tr>
 	<tr>
 		<td>1481276</td>
-		<td>MTK刷机时，报错4004的意思是</td>
-		<td>单选题</td>
+		<td>The meaning of error 4004 when flashing MTK machine</td>
+		<td>Single choice question</td>
 		<td>4859723</td>
-		<td>ROM文件和手机系统差距太大</td>
+		<td>There is a huge gap between the ROM file and the mobile phone system</td>
 		<td>4859722</td>
-		<td>刷机软件版本不匹配</td>
+		<td>The flash software version does not match</td>
 		<td>4859721</td>
-		<td>内存损坏</td>
+		<td>Memory corruption</td>
 		<td>4859720</td>
-		<td>驱动问题</td>
+		<td>Driver problem</td>
 		<td></td>
 		<td></td>
 		<td>4859720</td>
 	</tr>
 	<tr>
 		<td>1481272</td>
-		<td>关于FASTBOOT devices的作用，错误的说法有</td>
-		<td>多选题</td>
+		<td>There are some misconceptions about the role of FASTBOOT devices</td>
+		<td>Multiple choice questions</td>
 		<td>4859704</td>
-		<td>列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859705</td>
-		<td>列出当前已进入Recovery模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered Recovery mode and are connected to the PC normally</td>
 		<td>4859706</td>
-		<td>无响应命令检测</td>
+		<td>No response command detection</td>
 		<td>4859707</td>
-		<td>检查手机是否已经更新</td>
+		<td>Check whether the phone has been updated</td>
 		<td></td>
 		<td></td>
 		<td>4859705,4859706,4859707</td>
 	</tr>
 	<tr>
 		<td>1481274</td>
-		<td>以下FASTBOOT基本命令的说法，不正确的有</td>
-		<td>多选题</td>
+		<td>The following statements about basic FASTBOOT commands are incorrect</td>
+		<td>Multiple choice questions</td>
 		<td>4859712</td>
-		<td>fastboot getvar product：输出该机型内部代号名称</td>
+		<td>fastboot getvar product: Output the internal code name of the model</td>
 		<td>4859713</td>
-		<td>fastboot oem device-info：输出该设备的所有信息</td>
+		<td>fastboot oem device-info: Output all information about the device</td>
 		<td>4859714</td>
-		<td>fastboot erase <分区名>：清除手机中所有数据</td>
+		<td>fastboot erase <partition name>: clear all data in the phone</td>
 		<td>4859715</td>
-		<td>fastboot oem lock：开启BL锁保护</td>
+		<td>fastboot oem lock: enable BL lock protection</td>
 		<td>4859985</td>
-		<td>fastboot -w：列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>fastboot -w: List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859713,4859714,4859985</td>
 	</tr>
 	<tr>
 		<td>1481275</td>
-		<td>线刷可以用来解决哪些场景问题？</td>
-		<td>多选题</td>
+		<td>What scene problems can line brush be used to solve? </td>
+		<td>Multiple choice questions</td>
 		<td>4859716</td>
-		<td>希望降级回到之前的系统版本</td>
+		<td>Want to downgrade back to the previous system version</td>
 		<td>4859717</td>
-		<td>希望彻底删除数据，保护隐私</td>
+		<td>Hope to completely delete data and protect privacy</td>
 		<td>4859718</td>
-		<td>手机无法开机但已解锁</td>
+		<td>The phone cannot be turned on but is unlocked</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -198,56 +203,56 @@
 	</tr>
 	<tr>
 		<td>1481277</td>
-		<td>关于JVM的垃圾回收机制说法正确的是</td>
-		<td>多选题</td>
+		<td>What is the correct statement about JVM’s garbage collection mechanism</td>
+		<td>Multiple choice questions</td>
 		<td>4859724</td>
-		<td>Serial Collector适合内存有限的情况</td>
+		<td>Serial Collector is suitable for situations with limited memory</td>
 		<td>4859725</td>
-		<td>CMS Collctor在Old区回收暂停时间长</td>
+		<td>CMS Collctor has a long recovery pause time in the Old area</td>
 		<td>4859726</td>
-		<td>Parallel Collector效率低</td>
+		<td>Parallel Collector is inefficient</td>
 		<td>4859727</td>
-		<td>Serial Collector回收速度慢</td>
+		<td>Serial Collector recycling speed is slow</td>
 		<td></td>
 		<td></td>
 		<td>4859724,4859727</td>
 	</tr>
 	<tr>
 		<td>1481270</td>
-		<td>如何退出FASTBOOT模式？</td>
-		<td>多选题</td>
+		<td>How to exit FASTBOOT mode? </td>
+		<td>Multiple choice questions</td>
 		<td>4859696</td>
-		<td>在FASTBOOT模式下长按电源键约7-15秒重启进入系统</td>
+		<td>In FASTBOOT mode, press and hold the power button for about 7-15 seconds to restart the system</td>
 		<td>4859697</td>
-		<td>通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机</td>
+		<td>Restart the system through "fastboot reboot" and "fastboot oem poweroff" commands or unplug and shut down</td>
 		<td>4859698</td>
-		<td>部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机</td>
+		<td>Some models will automatically restart or shut down within 5 minutes to half an hour if the data cable is not plugged in in FASTBOOT mode</td>
 		<td>4859947</td>
-		<td>反复插拔数据线5次</td>
+		<td>Repeatedly plug and unplug the data cable 5 times</td>
 		<td></td>
 		<td></td>
 		<td>4859696,4859697,4859698</td>
 	</tr>
 	<tr>
 		<td>1481278</td>
-		<td>FASTBOOT模式通常用于哪些操作？</td>
-		<td>多选题</td>
+		<td>What operations are the FASTBOOT mode usually used for? </td>
+		<td>Multiple choice questions</td>
 		<td>4859728</td>
-		<td>解锁引导加载程序</td>
+		<td>Unlocking the bootloader</td>
 		<td>4859729</td>
-		<td>更新设备驱动程序</td>
+		<td>Update device drivers</td>
 		<td>4859730</td>
-		<td>启用设备无线功能</td>
+		<td>Enable device wireless capabilities</td>
 		<td>4859731</td>
-		<td>刷写设备固件</td>
+		<td>Flash device firmware</td>
 		<td>4859984</td>
-		<td>大量文件数据传输</td>
+		<td>Transfer large amounts of file data</td>
 		<td>4859728,4859731</td>
 	</tr>
 	<tr>
 		<td>1481279</td>
-		<td>安卓系统中负责启动应用，管理应用生命周期的系统服务是</td>
-		<td>单选题</td>
+		<td>The system service in the Android system that is responsible for starting applications and managing the application life cycle is</td>
+		<td>Single choice question</td>
 		<td>4859732</td>
 		<td>SystemManager</td>
 		<td>4859733</td>
@@ -262,8 +267,8 @@
 	</tr>
 	<tr>
 		<td>1481367</td>
-		<td>以下哪条命令可间接直观检查出设备是否正常连接？</td>
-		<td>单选题</td>
+		<td>Which of the following commands can indirectly and visually check whether the device is connected normally? </td>
+		<td>Single choice question</td>
 		<td>4859980</td>
 		<td>fastboot getvar all</td>
 		<td>4859981</td>
@@ -278,48 +283,48 @@
 	</tr>
 	<tr>
 		<td>1482215</td>
-		<td>FastBoot命令有哪些类型</td>
-		<td>多选题</td>
+		<td>What are the types of FastBoot commands</td>
+		<td>Multiple choice questions</td>
 		<td>4862229</td>
-		<td>执行动作类</td>
+		<td>Execution action class</td>
 		<td>4862230</td>
-		<td>数据备份类</td>
+		<td>Data backup class</td>
 		<td>4862231</td>
-		<td>输出信息类</td>
+		<td>Output information class</td>
 		<td>4862232</td>
-		<td>擦写数据类</td>
+		<td>Erase data class</td>
 		<td></td>
 		<td></td>
 		<td>4862229,4862231,4862232</td>
 	</tr>
 	<tr>
 		<td>1482216</td>
-		<td>执行以下哪些操作需要解Bootloader锁？</td>
-		<td>多选题</td>
+		<td>Which of the following operations require unlocking the Bootloader lock? </td>
+		<td>Multiple choice questions</td>
 		<td>4862233</td>
-		<td>卡刷方法刷机</td>
+		<td>Card swiping method to swipe the machine</td>
 		<td>4862234</td>
-		<td>FASTBOOT模式下线刷</td>
+		<td>FASTBOOT mode offline brushing</td>
 		<td>4862235</td>
-		<td>ROOT权限</td>
+		<td>ROOT permissions</td>
 		<td>4862236</td>
-		<td>线刷开发版ROM</td>
+		<td>Wire Flash Development ROM</td>
 		<td></td>
 		<td></td>
 		<td>4862234,4862235,4862236</td>
 	</tr>
 	<tr>
 		<td>1481262</td>
-		<td>关于9008模式刷机说法不正确的有？</td>
-		<td>多选题</td>
+		<td>Is there any incorrect statement about 9008 mode flashing? </td>
+		<td>Multiple choice questions</td>
 		<td>4859667</td>
-		<td>手机必须搭载高通或联发科处理器才能使用9008模式刷机</td>
+		<td>The phone must be equipped with a Qualcomm or MediaTek processor to use 9008 mode flashing</td>
 		<td>4859668</td>
-		<td>9008模式下的刷机会比fastboot模式下的刷机更加彻底</td>
+		<td>The flashing opportunity in 9008 mode is more thorough than the flashing in fastboot mode</td>
 		<td>4859669</td>
-		<td>小米仅部分手机可使用9008模式</td>
+		<td>Only some Xiaomi phones can use 9008 mode</td>
 		<td>4859941</td>
-		<td>9008模式仅限手机可正常进入系统时才可使用</td>
+		<td>9008 mode can only be used when the mobile phone can enter the system normally</td>
 		<td></td>
 		<td></td>
 		<td>4859941,4859667</td>
@@ -328,100 +333,100 @@
 
 ## 2023.11.30
 
-- 答题链接: https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
-- 题目数量: 18
-- 合格分数: 93
-- 时间限制(更新): 6 分钟，超时结算已回答题目的分数
-- 注(更新): 已答题账号在 7 天内无法重新答题
+- Answer link: https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
+- Number of questions: 18
+- Passing score: 93
+- Time limit (updated): 6 minutes, scores for answered questions will be calculated over time
+- Note (update): Accounts that have already answered questions cannot answer questions again within 7 days.
 
 <table>
 	<tr align="center">
-		<th rowspan="2">题目 ID</td>
-		<th rowspan="2">题目内容</td>
-		<th rowspan="2">类型</td>
-		<th colspan="10">选项</td>
-		<th rowspan="2">答案</td>
+		<th rowspan="2">Question ID</td>
+		<th rowspan="2">Question content</td>
+		<th rowspan="2">Type</td>
+		<th colspan="10">Options</td>
+		<th rowspan="2">Answer</td>
 	</tr>
 	<tr align="center">
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 	</tr>
 	<tr>
 		<td>1481260</td>
-		<td>以下关于BL解锁刷机的说法中，正确的有</td>
-		<td>多选题</td>
+		<td>Among the following statements about BL unlocking and rooting, which ones are correct</td>
+		<td>Multiple choice questions</td>
 		<td>4859659</td>
-		<td>刷入第三方TWRP，通常选择刷入到system分区</td>
+		<td>Flash third-party TWRP, usually choose to flash to the system partition</td>
 		<td>4859660</td>
-		<td>刷入第三方Recovery，数据通常不会丢失</td>
+		<td>Flash into third-party recovery, data will usually not be lost</td>
 		<td>4859661</td>
-		<td>擦除cache分区数据，个人数据通常不会丢失</td>
+		<td>Erase cache partition data, personal data is usually not lost</td>
 		<td>4859662</td>
-		<td>Xiaomi/Redmi手机一般长按电源键和音量加键即可进入Recovery</td>
+		<td>On Xiaomi/Redmi phones, you can generally press and hold the power button and volume up button to enter Recovery</td>
 		<td>4859752</td>
-		<td>线刷刷机前应当备份重要数据</td>
+		<td>You should back up important data before online flashing</td>
 		<td>4859660,4859661,4859662,4859752</td>
 	</tr>
 	<tr>
 		<td>1481262</td>
-		<td>关于9008模式刷机说法正确的有？</td>
-		<td>多选题</td>
+		<td>Is there any correct statement about 9008 mode flashing? </td>
+		<td>Multiple choice questions</td>
 		<td>4859667</td>
-		<td>手机必须搭载高通处理器才能使用9008模式刷机</td>
+		<td>The phone must be equipped with a Qualcomm processor to use 9008 mode flashing</td>
 		<td>4859668</td>
-		<td>9008模式下的刷机会比fastboot模式下的刷机更加彻底</td>
+		<td>The flashing opportunity in 9008 mode is more thorough than the flashing in fastboot mode</td>
 		<td>4859669</td>
-		<td>小米所有手机均可使用9008模式</td>
+		<td>All Xiaomi phones can use 9008 mode</td>
 		<td>4859941</td>
-		<td>9008模式仅限手机可正常进入系统时才可使用</td>
+		<td>9008 mode can only be used when the mobile phone can enter the system normally</td>
 		<td></td>
 		<td></td>
 		<td>4859667,4859668</td>
 	</tr>
 	<tr>
 		<td>1481264</td>
-		<td>以下Bootloader锁表述错误的是？</td>
-		<td>单选题</td>
+		<td>Which of the following Bootloader lock statements is incorrect? </td>
+		<td>Single choice question</td>
 		<td>4859673</td>
-		<td>正式版切换到开发版必须解锁</td>
+		<td>Switching from the official version to the development version must be unlocked</td>
 		<td>4859674</td>
-		<td>解锁时需要登录小米账号</td>
+		<td>You need to log in to your Xiaomi account when unlocking</td>
 		<td>4859675</td>
-		<td>小米账号需要与手机绑定</td>
+		<td>Xiaomi account needs to be bound to the mobile phone</td>
 		<td>4859676</td>
-		<td>解锁后系统安全系数会降低</td>
+		<td>The system security factor will be reduced after unlocking</td>
 		<td></td>
 		<td></td>
 		<td>4859673</td>
 	</tr>
 	<tr>
 		<td>1481265</td>
-		<td>下列刷机工具中，属于官方提供给用户的工具是？</td>
-		<td>单选题</td>
+		<td>Among the following flashing tools, which one is officially provided to users? </td>
+		<td>Single choice question</td>
 		<td>4859946</td>
-		<td>91助手</td>
+		<td>91 Assistant</td>
 		<td>4859677</td>
 		<td>MiFlash</td>
 		<td>4859678</td>
-		<td>刷机大师</td>
+		<td>Flash Master</td>
 		<td>4859679</td>
-		<td>线刷宝</td>
+		<td>Online brush treasure</td>
 		<td></td>
 		<td></td>
 		<td>4859677</td>
 	</tr>
 	<tr>
 		<td>1481266</td>
-		<td>如何在FASTBOOT命令行内，刷入twrp到boot分区？</td>
-		<td>单选题</td>
+		<td>How to flash twrp to the boot partition in the FASTBOOT command line? </td>
+		<td>Single choice question</td>
 		<td>4859680</td>
 		<td>fastboot flash boot boot.img</td>
 		<td>4859681</td>
@@ -436,78 +441,78 @@
 	</tr>
 	<tr>
 		<td>1481268</td>
-		<td>如何烧录img、bin、mbn、elf等镜像文件内容到指定分区？</td>
-		<td>单选题</td>
+		<td>How to burn img, bin, mbn, elf and other image file contents to a specified partition? </td>
+		<td>Single choice question</td>
 		<td>4859688</td>
-		<td>fastboot getvar all &lt;分区名&gt;</td>
+		<td>fastboot getvar all <partition name></td>
 		<td>4859689</td>
-		<td>fastboot boot &lt;内核镜像文件名或路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot boot <kernel image file name or path> <partition name></td>
 		<td>4859690</td>
-		<td>fastboot flash &lt;镜像路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot flash <image path> <partition name></td>
 		<td>4859691</td>
-		<td>fastboot flash &lt;分区名&gt; &lt;镜像文件名或路径&gt;</td>
+		<td>fastboot flash <Partition name> <Image file name or path></td>
 		<td></td>
 		<td></td>
 		<td>4859691</td>
 	</tr>
 	<tr>
 		<td>1481270</td>
-		<td>如何退出FASTBOOT模式？</td>
-		<td>多选题</td>
+		<td>How to exit FASTBOOT mode? </td>
+		<td>Multiple choice questions</td>
 		<td>4859696</td>
-		<td>在FASTBOOT模式下长按电源键约7-15秒重启进入系统</td>
+		<td>In FASTBOOT mode, press and hold the power button for about 7-15 seconds to restart the system</td>
 		<td>4859697</td>
-		<td>通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机</td>
+		<td>Restart the system through "fastboot reboot" and "fastboot oem poweroff" commands or unplug and shut down</td>
 		<td>4859698</td>
-		<td>部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机</td>
+		<td>Some models will automatically restart or shut down within 5 minutes to half an hour if the data cable is not plugged in in FASTBOOT mode</td>
 		<td>4859947</td>
-		<td>反复插拔数据线5次</td>
+		<td>Repeatedly plug and unplug the data cable 5 times</td>
 		<td></td>
 		<td></td>
 		<td>4859696,4859697,4859698</td>
 	</tr>
 	<tr>
 		<td>1481272</td>
-		<td>关于FASTBOOT devices的作用，错误的说法有</td>
-		<td>多选题</td>
+		<td>There are some misconceptions about the role of FASTBOOT devices</td>
+		<td>Multiple choice questions</td>
 		<td>4859704</td>
-		<td>列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859705</td>
-		<td>列出当前已进入Recovery模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered Recovery mode and are connected to the PC normally</td>
 		<td>4859706</td>
-		<td>无响应命令检测</td>
+		<td>No response command detection</td>
 		<td>4859707</td>
-		<td>检查手机是否已经更新</td>
+		<td>Check whether the phone has been updated</td>
 		<td></td>
 		<td></td>
 		<td>4859705,4859706,4859707</td>
 	</tr>
 	<tr>
 		<td>1481274</td>
-		<td>以下FASTBOOT基本命令的说法，正确的有</td>
-		<td>多选题</td>
+		<td>The following basic commands of FASTBOOT are correct</td>
+		<td>Multiple choice questions</td>
 		<td>4859712</td>
-		<td>fastboot getvar product：输出该机型内部代号名称</td>
+		<td>fastboot getvar product: Output the internal code name of the model</td>
 		<td>4859713</td>
-		<td>fastboot oem device-info：输出该设备的所有信息</td>
+		<td>fastboot oem device-info: Output all information about the device</td>
 		<td>4859714</td>
-		<td>fastboot erase <分区名>：清除手机中所有数据</td>
+		<td>fastboot erase <partition name>: clear all data in the phone</td>
 		<td>4859715</td>
-		<td>fastboot oem lock：开启BL锁保护</td>
+		<td>fastboot oem lock: enable BL lock protection</td>
 		<td>4859985</td>
-		<td>fastboot -w：列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>fastboot -w: List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859712,4859715</td>
 	</tr>
 	<tr>
 		<td>1481275</td>
-		<td>线刷可以用来解决哪些场景问题？</td>
-		<td>多选题</td>
+		<td>What scene problems can line brush be used to solve? </td>
+		<td>Multiple choice questions</td>
 		<td>4859716</td>
-		<td>希望降级回到之前的系统版本</td>
+		<td>Want to downgrade back to the previous system version</td>
 		<td>4859717</td>
-		<td>希望彻底删除数据，保护隐私</td>
+		<td>Hope to completely delete data and protect privacy</td>
 		<td>4859718</td>
-		<td>手机无法开机但已解锁</td>
+		<td>The phone cannot be turned on but is unlocked</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -516,56 +521,56 @@
 	</tr>
 	<tr>
 		<td>1481276</td>
-		<td>FASTBOOT getvar all 命令有何作用？</td>
-		<td>单选题</td>
+		<td>What does the FASTBOOT getvar all command do? </td>
+		<td>Single choice question</td>
 		<td>4859720</td>
-		<td>输出该设备的所有信息</td>
+		<td>Output all information about the device</td>
 		<td>4859721</td>
-		<td>输出该设备的手机密码</td>
+		<td>Enter the mobile phone password of the device</td>
 		<td>4859722</td>
-		<td>输出该设备的手机号</td>
+		<td>Output the mobile phone number of the device</td>
 		<td>4859723</td>
-		<td>输出该设备的更新版本</td>
+		<td>Output the updated version of the device</td>
 		<td></td>
 		<td></td>
 		<td>4859720</td>
 	</tr>
 	<tr>
 		<td>1481277</td>
-		<td>关于JVM的垃圾回收机制说法正确的是</td>
-		<td>多选题</td>
+		<td>What is the correct statement about JVM’s garbage collection mechanism</td>
+		<td>Multiple choice questions</td>
 		<td>4859724</td>
-		<td>Serial Collector适合内存有限的情况</td>
+		<td>Serial Collector is suitable for situations with limited memory</td>
 		<td>4859725</td>
-		<td>CMS Collctor在Old区回收暂停时间长</td>
+		<td>CMS Collctor has a long recovery pause time in the Old area</td>
 		<td>4859726</td>
-		<td>Parallel Collector效率高</td>
+		<td>Parallel Collector is highly efficient</td>
 		<td>4859727</td>
-		<td>Serial Collector回收速度快</td>
+		<td>Serial Collector has fast recycling speed</td>
 		<td></td>
 		<td></td>
 		<td>4859724,4859726</td>
 	</tr>
 	<tr>
 		<td>1481278</td>
-		<td>FASTBOOT模式通常用于哪些操作？</td>
-		<td>多选题</td>
+		<td>What operations are the FASTBOOT mode usually used for? </td>
+		<td>Multiple choice questions</td>
 		<td>4859728</td>
-		<td>解锁引导加载程序</td>
+		<td>Unlocking the bootloader</td>
 		<td>4859729</td>
-		<td>更新设备驱动程序</td>
+		<td>Update device drivers</td>
 		<td>4859730</td>
-		<td>启用设备无线功能</td>
+		<td>Enable device wireless capabilities</td>
 		<td>4859731</td>
-		<td>刷写设备固件</td>
+		<td>Flash device firmware</td>
 		<td>4859984</td>
-		<td>大量文件数据传输</td>
+		<td>Transfer large amounts of file data</td>
 		<td>4859728,4859731</td>
 	</tr>
 	<tr>
 		<td>1481279</td>
-		<td>安卓系统中负责启动应用，管理应用生命周期的系统服务是</td>
-		<td>单选题</td>
+		<td>The system service in the Android system that is responsible for starting applications and managing the application life cycle is</td>
+		<td>Single choice question</td>
 		<td>4859732</td>
 		<td>SystemManager</td>
 		<td>4859733</td>
@@ -580,8 +585,8 @@
 	</tr>
 	<tr>
 		<td>1481367</td>
-		<td>以下哪条命令可间接直观检查出设备是否正常连接？</td>
-		<td>单选题</td>
+		<td>Which of the following commands can indirectly and visually check whether the device is connected normally? </td>
+		<td>Single choice question</td>
 		<td>4859980</td>
 		<td>fastboot getvar all</td>
 		<td>4859981</td>
@@ -596,32 +601,32 @@
 	</tr>
 	<tr>
 		<td>1482215</td>
-		<td>FastBoot命令有哪些类型</td>
-		<td>多选题</td>
+		<td>What are the types of FastBoot commands</td>
+		<td>Multiple choice questions</td>
 		<td>4862229</td>
-		<td>执行动作类</td>
+		<td>Execution action class</td>
 		<td>4862230</td>
-		<td>数据备份类</td>
+		<td>Data backup class</td>
 		<td>4862231</td>
-		<td>输出信息类</td>
+		<td>Output information class</td>
 		<td>4862232</td>
-		<td>擦写数据类</td>
+		<td>Erase data class</td>
 		<td></td>
 		<td></td>
 		<td>4862229,4862231,4862232</td>
 	</tr>
 	<tr>
 		<td>1482216</td>
-		<td>执行以下哪些操作需要解Bootloader锁？</td>
-		<td>多选题</td>
+		<td>Which of the following operations require unlocking the Bootloader lock? </td>
+		<td>Multiple choice questions</td>
 		<td>4862233</td>
-		<td>卡刷方法刷机</td>
+		<td>Card swiping method to swipe the machine</td>
 		<td>4862234</td>
-		<td>FASTBOOT模式下线刷</td>
+		<td>FASTBOOT mode offline brushing</td>
 		<td>4862235</td>
-		<td>ROOT权限</td>
+		<td>ROOT permissions</td>
 		<td>4862236</td>
-		<td>线刷开发版ROM</td>
+		<td>Wire Flash Development ROM</td>
 		<td></td>
 		<td></td>
 		<td>4862234,4862235,4862236</td>
@@ -630,100 +635,100 @@
 
 ## 2023.11.29
 
-- 答题链接(更新): https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
-- 题目数量(更新): 18
-- 合格分数(更新): 93
-- 时间限制(更新): 6 分钟
-- 注(更新): 新增多选题，题目选项数量增加至最多 5 个
+- Answer link (updated): https://m.beehive.miui.com/Wc2BAFI5U3xqe_bYlNMT2g/
+- Number of questions (updated): 18
+- Passing score (updated): 93
+- Time limit (update): 6 minutes
+- Note (updated): Multiple-choice questions have been added, and the number of question options has been increased to a maximum of 5.
 
 <table>
 	<tr align="center">
-		<th rowspan="2">题目 ID</td>
-		<th rowspan="2">题目内容</td>
-		<th rowspan="2">类型</td>
-		<th colspan="10">选项</td>
-		<th rowspan="2">答案</td>
+		<th rowspan="2">Question ID</td>
+		<th rowspan="2">Question content</td>
+		<th rowspan="2">Type</td>
+		<th colspan="10">Options</td>
+		<th rowspan="2">Answer</td>
 	</tr>
 	<tr align="center">
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 	</tr>
 	<tr>
 		<td>1481260</td>
-		<td>以下关于BL解锁刷机的说法中，正确的有</td>
-		<td>多选题</td>
+		<td>Among the following statements about BL unlocking and rooting, which ones are correct</td>
+		<td>Multiple choice questions</td>
 		<td>4859659</td>
-		<td>刷入第三方TWRP，通常选择刷入到system分区</td>
+		<td>Flash third-party TWRP, usually choose to flash to the system partition</td>
 		<td>4859660</td>
-		<td>刷入第三方Recovery，数据通常不会丢失</td>
+		<td>Flash into third-party recovery, data will usually not be lost</td>
 		<td>4859661</td>
-		<td>擦除cache分区数据，个人数据通常不会丢失</td>
+		<td>Erase cache partition data, personal data is usually not lost</td>
 		<td>4859662</td>
-		<td>Xiaomi/Redmi手机一般长按电源键和音量减键即可进入Recovery</td>
+		<td>On Xiaomi/Redmi phones, you can generally press and hold the power button and volume down button to enter Recovery</td>
 		<td>4859752</td>
-		<td>线刷刷机前应当备份重要数据</td>
+		<td>You should back up important data before online flashing</td>
 		<td>4859660,4859661,4859752</td>
 	</tr>
 	<tr>
 		<td>1481262</td>
-		<td>关于9008模式刷机说法正确的有？</td>
-		<td>多选题</td>
+		<td>Is there any correct statement about 9008 mode flashing? </td>
+		<td>Multiple choice questions</td>
 		<td>4859667</td>
-		<td>手机必须搭载高通处理器才能使用9008模式刷机</td>
+		<td>The phone must be equipped with a Qualcomm processor to use 9008 mode flashing</td>
 		<td>4859668</td>
-		<td>9008模式下的刷机会比fastboot模式下的刷机更加彻底</td>
+		<td>The flashing opportunity in 9008 mode is more thorough than the flashing in fastboot mode</td>
 		<td>4859669</td>
-		<td>小米所有手机均可使用9008模式</td>
+		<td>All Xiaomi phones can use 9008 mode</td>
 		<td>4859941</td>
-		<td>9008模式仅限手机可正常进入系统时才可使用</td>
+		<td>9008 mode can only be used when the mobile phone can enter the system normally</td>
 		<td></td>
 		<td></td>
 		<td>4859667,4859668</td>
 	</tr>
 	<tr>
 		<td>1481264</td>
-		<td>以下Bootloader锁表述错误的是？</td>
-		<td>单选题</td>
+		<td>Which of the following Bootloader lock statements is incorrect? </td>
+		<td>Single choice question</td>
 		<td>4859673</td>
-		<td>正式版切换到开发版必须解锁</td>
+		<td>Switching from the official version to the development version must be unlocked</td>
 		<td>4859674</td>
-		<td>解锁时需要登录小米账号</td>
+		<td>You need to log in to your Xiaomi account when unlocking</td>
 		<td>4859675</td>
-		<td>小米账号需要与手机绑定</td>
+		<td>Xiaomi account needs to be bound to the mobile phone</td>
 		<td>4859676</td>
-		<td>解锁后系统安全系数会降低</td>
+		<td>The system security factor will be reduced after unlocking</td>
 		<td></td>
 		<td></td>
 		<td>4859673</td>
 	</tr>
 	<tr>
 		<td>1481265</td>
-		<td>下列刷机工具中，属于官方提供给用户的工具是？</td>
-		<td>单选题</td>
+		<td>Among the following flashing tools, which one is officially provided to users? </td>
+		<td>Single choice question</td>
 		<td>4859946</td>
-		<td>91助手</td>
+		<td>91 Assistant</td>
 		<td>4859677</td>
 		<td>MiFlash</td>
 		<td>4859678</td>
-		<td>刷机大师</td>
+		<td>Flash Master</td>
 		<td>4859679</td>
-		<td>线刷宝</td>
+		<td>Online brush treasure</td>
 		<td></td>
 		<td></td>
 		<td>4859677</td>
 	</tr>
 	<tr>
 		<td>1481266</td>
-		<td>如何在FASTBOOT命令行内，刷入twrp到boot分区？</td>
-		<td>单选题</td>
+		<td>How to flash twrp to the boot partition in the FASTBOOT command line? </td>
+		<td>Single choice question</td>
 		<td>4859680</td>
 		<td>fastboot flash boot boot.img</td>
 		<td>4859681</td>
@@ -738,78 +743,78 @@
 	</tr>
 	<tr>
 		<td>1481268</td>
-		<td>如何烧录img、bin、mbn、elf等镜像文件内容到指定分区？</td>
-		<td>单选题</td>
+		<td>How to burn img, bin, mbn, elf and other image file contents to a specified partition? </td>
+		<td>Single choice question</td>
 		<td>4859688</td>
-		<td>fastboot getvar all &lt;分区名&gt;</td>
+		<td>fastboot getvar all <partition name></td>
 		<td>4859689</td>
-		<td>fastboot boot &lt;内核镜像文件名或路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot boot <kernel image file name or path> <partition name></td>
 		<td>4859690</td>
-		<td>fastboot flash &lt;镜像路径&gt; &lt;分区名&gt;</td>
+		<td>fastboot flash <image path> <partition name></td>
 		<td>4859691</td>
-		<td>fastboot flash &lt;分区名&gt; &lt;镜像文件名或路径&gt;</td>
+		<td>fastboot flash <Partition name> <Image file name or path></td>
 		<td></td>
 		<td></td>
 		<td>4859691</td>
 	</tr>
 	<tr>
 		<td>1481270</td>
-		<td>如何退出FASTBOOT模式？</td>
-		<td>多选题</td>
+		<td>How to exit FASTBOOT mode? </td>
+		<td>Multiple choice questions</td>
 		<td>4859696</td>
-		<td>在FASTBOOT模式下长按音量键约7-15秒重启进入系统</td>
+		<td>In FASTBOOT mode, press and hold the volume button for about 7-15 seconds to restart the system</td>
 		<td>4859697</td>
-		<td>通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机</td>
+		<td>Restart the system through "fastboot reboot" and "fastboot oem poweroff" commands or unplug and shut down</td>
 		<td>4859698</td>
-		<td>部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机</td>
+		<td>Some models will automatically restart or shut down within 5 minutes to half an hour if the data cable is not plugged in in FASTBOOT mode</td>
 		<td>4859947</td>
-		<td>反复插拔数据线5次</td>
+		<td>Repeatedly plug and unplug the data cable 5 times</td>
 		<td></td>
 		<td></td>
 		<td>4859697,4859698</td>
 	</tr>
 	<tr>
 		<td>1481272</td>
-		<td>关于FASTBOOT devices的作用，错误的说法有</td>
-		<td>多选题</td>
+		<td>There are some misconceptions about the role of FASTBOOT devices</td>
+		<td>Multiple choice questions</td>
 		<td>4859704</td>
-		<td>列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859705</td>
-		<td>列出当前已进入Recovery模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered Recovery mode and are connected to the PC normally</td>
 		<td>4859706</td>
-		<td>无响应命令检测</td>
+		<td>No response command detection</td>
 		<td>4859707</td>
-		<td>检查手机是否已经更新</td>
+		<td>Check whether the phone has been updated</td>
 		<td></td>
 		<td></td>
 		<td>4859705,4859706,4859707</td>
 	</tr>
 	<tr>
 		<td>1481274</td>
-		<td>以下FASTBOOT基本命令的说法，正确的有</td>
-		<td>多选题</td>
+		<td>The following basic commands of FASTBOOT are correct</td>
+		<td>Multiple choice questions</td>
 		<td>4859712</td>
-		<td>fastboot getvar product：输出该机型内部代号名称</td>
+		<td>fastboot getvar product: Output the internal code name of the model</td>
 		<td>4859713</td>
-		<td>fastboot oem device-info：输出该设备的所有信息</td>
+		<td>fastboot oem device-info: Output all information about the device</td>
 		<td>4859714</td>
-		<td>fastboot erase <分区名>：清除手机中所有数据</td>
+		<td>fastboot erase <partition name>: clear all data in the phone</td>
 		<td>4859715</td>
-		<td>fastboot oem lock：开启BL锁保护</td>
+		<td>fastboot oem lock: enable BL lock protection</td>
 		<td>4859985</td>
-		<td>fastboot -w：列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>fastboot -w: List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4859712,4859715</td>
 	</tr>
 	<tr>
 		<td>1481275</td>
-		<td>线刷可以用来解决哪些场景问题？</td>
-		<td>多选题</td>
+		<td>What scene problems can line brush be used to solve? </td>
+		<td>Multiple choice questions</td>
 		<td>4859716</td>
-		<td>希望降级回到之前的系统版本</td>
+		<td>Want to downgrade back to the previous system version</td>
 		<td>4859717</td>
-		<td>希望彻底删除数据，保护隐私</td>
+		<td>Hope to completely delete data and protect privacy</td>
 		<td>4859718</td>
-		<td>手机无法开机但已解锁</td>
+		<td>The phone cannot be turned on but is unlocked</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -818,56 +823,56 @@
 	</tr>
 	<tr>
 		<td>1481276</td>
-		<td>FASTBOOT getvar all 命令有何作用？</td>
-		<td>单选题</td>
+		<td>What does the FASTBOOT getvar all command do? </td>
+		<td>Single choice question</td>
 		<td>4859720</td>
-		<td>输出该设备的所有信息</td>
+		<td>Output all information about the device</td>
 		<td>4859721</td>
-		<td>输出该设备的手机密码</td>
+		<td>Enter the mobile phone password of the device</td>
 		<td>4859722</td>
-		<td>输出该设备的手机号</td>
+		<td>Output the mobile phone number of the device</td>
 		<td>4859723</td>
-		<td>输出该设备的更新版本</td>
+		<td>Output the updated version of the device</td>
 		<td></td>
 		<td></td>
 		<td>4859720</td>
 	</tr>
 	<tr>
 		<td>1481277</td>
-		<td>关于JVM的垃圾回收机制说法正确的是</td>
-		<td>多选题</td>
+		<td>What is the correct statement about JVM’s garbage collection mechanism</td>
+		<td>Multiple choice questions</td>
 		<td>4859724</td>
-		<td>Serial Collector适合内存有限的情况</td>
+		<td>Serial Collector is suitable for situations with limited memory</td>
 		<td>4859725</td>
-		<td>CMS Collctor在Old区回收暂停时间长</td>
+		<td>CMS Collctor has a long recovery pause time in the Old area</td>
 		<td>4859726</td>
-		<td>Parallel Collector效率高</td>
+		<td>Parallel Collector is highly efficient</td>
 		<td>4859727</td>
-		<td>Serial Collector回收速度快</td>
+		<td>Serial Collector has fast recycling speed</td>
 		<td></td>
 		<td></td>
 		<td>4859724,4859726</td>
 	</tr>
 	<tr>
 		<td>1481278</td>
-		<td>FASTBOOT模式通常用于哪些操作？</td>
-		<td>多选题</td>
+		<td>What operations are the FASTBOOT mode usually used for? </td>
+		<td>Multiple choice questions</td>
 		<td>4859728</td>
-		<td>解锁引导加载程序</td>
+		<td>Unlocking the bootloader</td>
 		<td>4859729</td>
-		<td>更新设备驱动程序</td>
+		<td>Update device drivers</td>
 		<td>4859730</td>
-		<td>启用设备无线功能</td>
+		<td>Enable device wireless capabilities</td>
 		<td>4859731</td>
-		<td>刷写设备固件</td>
+		<td>Flash device firmware</td>
 		<td>4859984</td>
-		<td>大量文件数据传输</td>
+		<td>Transfer large amounts of file data</td>
 		<td>4859728,4859731</td>
 	</tr>
 	<tr>
 		<td>1481279</td>
-		<td>安卓系统中负责启动应用，管理应用声明周期的系统服务是</td>
-		<td>单选题</td>
+		<td>The system service in the Android system that is responsible for starting applications and managing the application life cycle is</td>
+		<td>Single choice question</td>
 		<td>4859732</td>
 		<td>SystemManager</td>
 		<td>4859733</td>
@@ -882,8 +887,8 @@
 	</tr>
 	<tr>
 		<td>1481367</td>
-		<td>以下哪条命令可间接直观检查出设备是否正常连接？</td>
-		<td>单选题</td>
+		<td>Which of the following commands can indirectly and visually check whether the device is connected normally? </td>
+		<td>Single choice question</td>
 		<td>4859980</td>
 		<td>fastboot getvar all</td>
 		<td>4859981</td>
@@ -898,40 +903,40 @@
 	</tr>
 	<tr>
 		<td>1482215</td>
-		<td>FastBoot命令有哪些类型</td>
-		<td>多选题</td>
+		<td>What are the types of FastBoot commands</td>
+		<td>Multiple choice questions</td>
 		<td>4862229</td>
-		<td>执行动作类</td>
+		<td>Execution action class</td>
 		<td>4862230</td>
-		<td>数据备份类</td>
+		<td>Data backup class</td>
 		<td>4862231</td>
-		<td>输出信息类</td>
+		<td>Output information class</td>
 		<td>4862232</td>
-		<td>擦写数据类</td>
+		<td>Erase data class</td>
 		<td></td>
 		<td></td>
 		<td>4862229,4862231,4862232</td>
 	</tr>
 	<tr>
 		<td>1482216</td>
-		<td>执行以下哪些操作需要解Bootloader锁？</td>
-		<td>多选题</td>
+		<td>Which of the following operations require unlocking the Bootloader lock? </td>
+		<td>Multiple choice questions</td>
 		<td>4862233</td>
-		<td>卡刷方法刷机</td>
+		<td>Card swiping method to swipe the machine</td>
 		<td>4862234</td>
-		<td>FASTBOOT模式下线刷</td>
+		<td>FASTBOOT mode offline brushing</td>
 		<td>4862235</td>
-		<td>ROOT权限</td>
+		<td>ROOT permissions</td>
 		<td>4862236</td>
-		<td>线刷开发版ROM</td>
+		<td>Wire Flash Development ROM</td>
 		<td></td>
 		<td></td>
 		<td>4862234,4862235,4862236</td>
 	</tr>
 	<tr>
 		<td>1482217</td>
-		<td>FASTBOOT模式下如何输出防回滚机制（ANTI）版本号</td>
-		<td>单选题</td>
+		<td>How to output the anti-rollback mechanism (ANTI) version number in FASTBOOT mode</td>
+		<td>Single choice question</td>
 		<td>4862237</td>
 		<td>fastboot -w ANTI</td>
 		<td>4862238</td>
@@ -948,131 +953,131 @@
 
 ## 2023.11.08
 
-- 答题链接: https://m.beehive.miui.com/jdXtFrvJLlOK1T2omVdcFQ/
-- 题目数量: 25
-- 合格分数: 60
-- 时间限制: 10 分钟
+- Answer link: https://m.beehive.miui.com/jdXtFrvJLlOK1T2omVdcFQ/
+- Number of questions: 25
+- Passing score: 60
+- Time limit: 10 minutes
 
 <table>
 	<tr align="center">
-		<th rowspan="2">题目 ID</td>
-		<th rowspan="2">题目内容</td>
-		<th rowspan="2">类型</td>
-		<th colspan="8">选项</td>
-		<th rowspan="2">答案</td>
+		<th rowspan="2">Question ID</td>
+		<th rowspan="2">Question content</td>
+		<th rowspan="2">Type</td>
+		<th colspan="8">Options</td>
+		<th rowspan="2">Answer</td>
 	</tr>
 	<tr align="center">
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 		<th>ID</td>
-		<th>内容</td>
+		<th>Content</td>
 	</tr>
 	<tr>
 		<td>1461174</td>
-		<td>如何解除手机Bootloader锁？</td>
-		<td>单选题</td>
+		<td>How to unlock the bootloader of mobile phone? </td>
+		<td>Single choice question</td>
 		<td>4787594</td>
-		<td>进入MTK模式</td>
+		<td>Enter MTK mode</td>
 		<td>4787595</td>
-		<td>进入Recovery模式</td>
+		<td>Enter Recovery Mode</td>
 		<td>4787596</td>
-		<td>申请解锁通过后，下载工具解锁</td>
+		<td>After applying for unlocking, download the tool to unlock</td>
 		<td>4787597</td>
-		<td>通过小米助手解锁</td>
+		<td>Unlock via Xiaomi Assistant</td>
 		<td>4787596</td>
 	</tr>
 	<tr>
 		<td>1461175</td>
-		<td>请问如何实现保存数据刷机？</td>
-		<td>单选题</td>
+		<td>How to save data and flash the machine? </td>
+		<td>Single choice question</td>
 		<td>4787598</td>
-		<td>备份数据—解Bootloader锁—线刷</td>
+		<td>Backup data—Unlock Bootloader lock—Wire flash</td>
 		<td>4787599</td>
-		<td>解Bootloader锁—备份数据—线刷</td>
+		<td>Unlock Bootloader—Backup Data—Wire Flash</td>
 		<td>4787600</td>
-		<td>解Bootloader锁—线刷—备份数据</td>
+		<td>Unlock Bootloader - Wire Flash - Backup Data</td>
 		<td>4787601</td>
-		<td>解Bootloader锁—下载ROM—线刷</td>
+		<td>Unlock Bootloader—Download ROM—Wire Flash</td>
 		<td>4787598</td>
 	</tr>
 	<tr>
 		<td>1461176</td>
-		<td>执行以下哪项操作不需要解Bootloader锁？</td>
-		<td>单选题</td>
+		<td>Which of the following operations does not require unlocking the Bootloader lock? </td>
+		<td>Single choice question</td>
 		<td>4787602</td>
-		<td>卡刷方法刷机</td>
+		<td>Card swiping method to swipe the machine</td>
 		<td>4787603</td>
-		<td>FASTBOOT模式下线刷</td>
+		<td>FASTBOOT mode offline brushing</td>
 		<td>4787604</td>
-		<td>修补boot/init_boot获取root权限</td>
+		<td>Patch boot/init_boot to obtain root permissions</td>
 		<td>4787605</td>
-		<td>线刷开发版ROM</td>
+		<td>Wire Flash Development ROM</td>
 		<td>4787602</td>
 	</tr>
 	<tr>
 		<td>1461177</td>
-		<td>线刷需要手机进入什么模式？</td>
-		<td>单选题</td>
+		<td>What mode does wire brushing require the phone to enter? </td>
+		<td>Single choice question</td>
 		<td>4787606</td>
-		<td>系统更新界面</td>
+		<td>System update interface</td>
 		<td>4787607</td>
-		<td>FASTBOOT界面</td>
+		<td>FASTBOOT interface</td>
 		<td>4787608</td>
-		<td>Recovery界面</td>
+		<td>Recovery interface</td>
 		<td></td>
 		<td></td>
 		<td>4787607</td>
 	</tr>
 	<tr>
 		<td>1461178</td>
-		<td>小米手机如何进入FASTBOOT模式？</td>
-		<td>单选题</td>
+		<td>How to enter FASTBOOT mode on Xiaomi mobile phone? </td>
+		<td>Single choice question</td>
 		<td>4787610</td>
-		<td>关机状态下长按音量+与音量-键</td>
+		<td>Press and hold the volume + and volume - keys when the power is turned off</td>
 		<td>4787611</td>
-		<td>关机状态下长按音量+键与电源键</td>
+		<td>Press and hold the volume + key and power key when the power is turned off</td>
 		<td>4787612</td>
-		<td>关机状态下长按音量-键与电源键</td>
+		<td>Press and hold the volume-key and power key when the power is turned off</td>
 		<td></td>
 		<td></td>
 		<td>4787612</td>
 	</tr>
 	<tr>
 		<td>1461179</td>
-		<td>以下Bootloader锁表述错误的是？</td>
-		<td>单选题</td>
+		<td>Which of the following Bootloader lock statements is incorrect? </td>
+		<td>Single choice question</td>
 		<td>4787614</td>
-		<td>正式版切换到开发版必须解锁</td>
+		<td>Switching from the official version to the development version must be unlocked</td>
 		<td>4787615</td>
-		<td>解锁时需要登录小米账号</td>
+		<td>You need to log in to your Xiaomi account when unlocking</td>
 		<td>4787616</td>
-		<td>小米账号需要与手机绑定</td>
+		<td>Xiaomi account needs to be bound to the mobile phone</td>
 		<td>4787617</td>
-		<td>解锁后系统安全系数会降低</td>
+		<td>The system security factor will be reduced after unlocking</td>
 		<td>4787614</td>
 	</tr>
 	<tr>
 		<td>1461180</td>
-		<td>下列刷机工具中，属于官方提供给用户的工具是？</td>
-		<td>单选题</td>
+		<td>Among the following flashing tools, which one is officially provided to users? </td>
+		<td>Single choice question</td>
 		<td>4787618</td>
 		<td>MiFlash</td>
 		<td>4787619</td>
-		<td>刷机大师</td>
+		<td>Flash Master</td>
 		<td>4787620</td>
-		<td>线刷宝</td>
+		<td>Online brush treasure</td>
 		<td></td>
 		<td></td>
 		<td>4787618</td>
 	</tr>
 	<tr>
 		<td>1461181</td>
-		<td>如何在FASTBOOT命令行内，刷入twrp到boot分区？</td>
-		<td>单选题</td>
+		<td>How to flash twrp to the boot partition in the FASTBOOT command line? </td>
+		<td>Single choice question</td>
 		<td>4787622</td>
 		<td>fastboot flash boot boot.img</td>
 		<td>4787623</td>
@@ -1085,8 +1090,8 @@
 	</tr>
 	<tr>
 		<td>1461182</td>
-		<td>FASTBOOT模式下如何输出防回滚机制（ANTI）版本号</td>
-		<td>单选题</td>
+		<td>How to output the anti-rollback mechanism (ANTI) version number in FASTBOOT mode</td>
+		<td>Single choice question</td>
 		<td>4787626</td>
 		<td>fastboot -w ANTI</td>
 		<td>4787627</td>
@@ -1099,78 +1104,78 @@
 	</tr>
 	<tr>
 		<td>1461183</td>
-		<td>如何烧录img、bin、mbn、elf等镜像文件内容到指定分区？</td>
-		<td>单选题</td>
+		<td>How to burn img, bin, mbn, elf and other image file contents to a specified partition? </td>
+		<td>Single choice question</td>
 		<td>4787629</td>
-		<td>fastboot getvar anti&lt;镜像文件名或路径&gt;</td>
+		<td>fastboot getvar anti<Image file name or path></td>
 		<td>4787630</td>
-		<td>fastboot getvar anti&lt;镜像文件名与路径&gt;</td>
+		<td>fastboot getvar anti<Image file name and path></td>
 		<td>4787631</td>
-		<td>fastboot flash &lt;镜像路径&gt; &lt;文件名&gt;</td>
+		<td>fastboot flash <image path> <file name></td>
 		<td>4787632</td>
-		<td>fastboot flash &lt;分区名&gt; &lt;镜像文件名或路径&gt;</td>
+		<td>fastboot flash <Partition name> <Image file name or path></td>
 		<td>4787632</td>
 	</tr>
 	<tr>
 		<td>1461184</td>
-		<td>在FASTBOOT模式中，手机通过什么方式连接到电脑？</td>
-		<td>单选题</td>
+		<td>In FASTBOOT mode, how does the phone connect to the computer? </td>
+		<td>Single choice question</td>
 		<td>4787633</td>
-		<td>USB连接</td>
+		<td>USB connection</td>
 		<td>4787634</td>
-		<td>无线连接</td>
+		<td>Wireless connection</td>
 		<td>4787635</td>
-		<td>蓝牙连接</td>
+		<td>Bluetooth connection</td>
 		<td>4787636</td>
-		<td>以太网连接</td>
+		<td>Ethernet connection</td>
 		<td>4787633</td>
 	</tr>
 	<tr>
 		<td>1461185</td>
-		<td>如何退出FASTBOOT模式？</td>
-		<td>单选题</td>
+		<td>How to exit FASTBOOT mode? </td>
+		<td>Single choice question</td>
 		<td>4787637</td>
-		<td>在FASTBOOT模式下长按电源键约7-15秒重启进入系统</td>
+		<td>In FASTBOOT mode, press and hold the power button for about 7-15 seconds to restart the system</td>
 		<td>4787638</td>
-		<td>通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机</td>
+		<td>Restart the system through "fastboot reboot" and "fastboot oem poweroff" commands or unplug and shut down</td>
 		<td>4787639</td>
-		<td>部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机</td>
+		<td>Some models will automatically restart or shut down within 5 minutes to half an hour if the data cable is not plugged in in FASTBOOT mode</td>
 		<td>4787640</td>
-		<td>全部都对</td>
+		<td>All are correct</td>
 		<td>4787640</td>
 	</tr>
 	<tr>
 		<td>1461186</td>
-		<td>FASTBOOT命令可大致分为哪几类？</td>
-		<td>单选题</td>
+		<td>What categories can FASTBOOT commands be roughly divided into? </td>
+		<td>Single choice question</td>
 		<td>4787641</td>
-		<td>输出信息类</td>
+		<td>Output information class</td>
 		<td>4787642</td>
-		<td>执行动作类</td>
+		<td>Execution action class</td>
 		<td>4787643</td>
-		<td>擦写数据类</td>
+		<td>Erase data class</td>
 		<td>4787644</td>
-		<td>全部都对</td>
+		<td>All are correct</td>
 		<td>4787644</td>
 	</tr>
 	<tr>
 		<td>1461187</td>
-		<td>FASTBOOT devices有什么作用？</td>
-		<td>单选题</td>
+		<td>What do FASTBOOT devices do? </td>
+		<td>Single choice question</td>
 		<td>4787645</td>
-		<td>列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered FASTBOOT mode and are connected to the PC normally</td>
 		<td>4787646</td>
-		<td>列出当前已进入Recovery模式，且与PC连接正常的所有设备</td>
+		<td>List all devices that have entered Recovery mode and are connected to the PC normally</td>
 		<td>4787647</td>
-		<td>无响应命令检测</td>
+		<td>No response command detection</td>
 		<td>4787648</td>
-		<td>检查手机是否已经更新</td>
+		<td>Check whether the phone has been updated</td>
 		<td>4787645</td>
 	</tr>
 	<tr>
 		<td>1461188</td>
-		<td>如何检查连接设备是否正常连接？</td>
-		<td>单选题</td>
+		<td>How to check whether the connected device is connected normally? </td>
+		<td>Single choice question</td>
 		<td>4787649</td>
 		<td>fastboot getvar all</td>
 		<td>4787650</td>
@@ -1183,50 +1188,50 @@
 	</tr>
 	<tr>
 		<td>1461189</td>
-		<td>FASTBOOT命令中使用的标志“-w”代表什么操作？</td>
-		<td>单选题</td>
+		<td>What operation does the flag "-w" used in the FASTBOOT command represent? </td>
+		<td>Single choice question</td>
 		<td>4787653</td>
-		<td>重启手机</td>
+		<td>Restart your phone</td>
 		<td>4787654</td>
-		<td>下载最新完整包</td>
+		<td>Download the latest complete package</td>
 		<td>4787655</td>
-		<td>更新系统</td>
+		<td>Update system</td>
 		<td>4787656</td>
-		<td>清除所有数据</td>
+		<td>Clear all data</td>
 		<td>4787656</td>
 	</tr>
 	<tr>
 		<td>1461190</td>
-		<td>线刷用来解决哪些场景问题？</td>
-		<td>单选题</td>
+		<td>What scene problems are used to solve line brushing? </td>
+		<td>Single choice question</td>
 		<td>4787657</td>
-		<td>希望降级回到之前的系统版本</td>
+		<td>Want to downgrade back to the previous system version</td>
 		<td>4787658</td>
-		<td>希望彻底删除数据，保护隐私</td>
+		<td>Hope to completely delete data and protect privacy</td>
 		<td>4787659</td>
-		<td>手机无法开机但已解锁</td>
+		<td>The phone cannot be turned on but is unlocked</td>
 		<td>4787660</td>
-		<td>全部都对</td>
+		<td>All are correct</td>
 		<td>4787660</td>
 	</tr>
 	<tr>
 		<td>1461191</td>
-		<td>FASTBOOT getvar all 命令有何作用？</td>
-		<td>单选题</td>
+		<td>What does the FASTBOOT getvar all command do? </td>
+		<td>Single choice question</td>
 		<td>4787661</td>
-		<td>输出该设备的所有信息</td>
+		<td>Output all information about the device</td>
 		<td>4787662</td>
-		<td>输出该设备的手机密码</td>
+		<td>Enter the mobile phone password of the device</td>
 		<td>4787663</td>
-		<td>输出该设备的手机号</td>
+		<td>Output the mobile phone number of the device</td>
 		<td>4787664</td>
-		<td>输出该设备的更新版本</td>
+		<td>Output the updated version of the device</td>
 		<td>4787661</td>
 	</tr>
 	<tr>
 		<td>1461192</td>
-		<td>在FASTBOOT模式下，什么是用于刷写固件的命令？</td>
-		<td>单选题</td>
+		<td>What is the command used to flash firmware in FASTBOOT mode? </td>
+		<td>Single choice question</td>
 		<td>4787665</td>
 		<td>load</td>
 		<td>4787666</td>
@@ -1239,82 +1244,82 @@
 	</tr>
 	<tr>
 		<td>1461193</td>
-		<td>FASTBOOT模式通常用于哪些操作？</td>
-		<td>单选题</td>
+		<td>What operations are the FASTBOOT mode usually used for? </td>
+		<td>Single choice question</td>
 		<td>4787669</td>
-		<td>传输大型文件</td>
+		<td>Transfer large files</td>
 		<td>4787670</td>
-		<td>更新设备驱动程序</td>
+		<td>Update device drivers</td>
 		<td>4787671</td>
-		<td>启用设备无线功能</td>
+		<td>Enable device wireless capabilities</td>
 		<td>4787672</td>
-		<td>刷写设备固件、解锁引导加载程序</td>
+		<td>Flash device firmware, unlock bootloader</td>
 		<td>4787672</td>
 	</tr>
 	<tr>
 		<td>1461194</td>
-		<td>FASTBOOT模式和Recovery模式有什么区别？</td>
-		<td>单选题</td>
+		<td>What is the difference between FASTBOOT mode and Recovery mode? </td>
+		<td>Single choice question</td>
 		<td>4787673</td>
-		<td>Recovery能直接进入安全模式</td>
+		<td>Recovery can directly enter safe mode</td>
 		<td>4787674</td>
-		<td>FASTBOOT模式指的是“线刷”</td>
+		<td>FASTBOOT mode refers to "line brushing"</td>
 		<td>4787675</td>
-		<td>Recovery模式指的是“卡刷”</td>
+		<td>Recovery mode refers to "card swiping"</td>
 		<td>4787676</td>
-		<td>全部都对</td>
+		<td>All are correct</td>
 		<td>4787676</td>
 	</tr>
 	<tr>
 		<td>1461195</td>
-		<td>MiFlash的全部删除是什么意思？</td>
-		<td>单选题</td>
+		<td>What does it mean to delete all in MiFlash? </td>
+		<td>Single choice question</td>
 		<td>4787678</td>
-		<td>删除小米云服务数据</td>
+		<td>Delete Xiaomi cloud service data</td>
 		<td>4787679</td>
-		<td>删除小米商城购物车内所有数据</td>
+		<td>Delete all data in Xiaomi shopping cart</td>
 		<td>4787677</td>
-		<td>删除包括Data在内的全部数据</td>
+		<td>Delete all data including Data</td>
 		<td>4787680</td>
-		<td>删除米家连接设备</td>
+		<td>Delete Mijia connected devices</td>
 		<td>4787677</td>
 	</tr>
 	<tr>
 		<td>1461196</td>
-		<td>FASTBOOT模式进入后是什么样子？</td>
-		<td>单选题</td>
+		<td>What does it look like after entering FASTBOOT mode? </td>
+		<td>Single choice question</td>
 		<td>4787681</td>
-		<td>屏幕上显示Xiaomi</td>
+		<td>Xiaomi is displayed on the screen</td>
 		<td>4787683</td>
-		<td>屏幕上显示Redmi</td>
+		<td>Redmi is displayed on the screen</td>
 		<td>4787684</td>
-		<td>屏幕上显示英文FASTBOOT</td>
+		<td>English FASTBOOT is displayed on the screen</td>
 		<td></td>
 		<td></td>
 		<td>4787684</td>
 	</tr>
 	<tr>
 		<td>1461197</td>
-		<td>一个手机如果只能进入FASTBOOT意味着什么？</td>
-		<td>单选题</td>
+		<td>What does it mean if a mobile phone can only enter FASTBOOT? </td>
+		<td>Single choice question</td>
 		<td>4787685</td>
-		<td>系统可能损坏</td>
+		<td>The system may be damaged</td>
 		<td>4787687</td>
-		<td>引导程序损毁</td>
+		<td>Bootloader damaged</td>
 		<td>4787688</td>
-		<td>全部都对</td>
+		<td>All are correct</td>
 		<td></td>
 		<td></td>
 		<td>4787688</td>
 	</tr>
 	<tr>
 		<td>1461198</td>
-		<td>Bootloader锁被解开还能上锁吗？</td>
-		<td>单选题</td>
+		<td>Can the Bootloader lock be unlocked if it is unlocked? </td>
+		<td>Single choice question</td>
 		<td>4787689</td>
-		<td>能</td>
+		<td>Can</td>
 		<td>4787690</td>
-		<td>不能</td>
+		<td>Cannot</td>
 		<td></td>
 		<td></td>
 		<td></td>
